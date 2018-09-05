@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/miladkdz/pic-resize/issues"
   },
-  "homepage": "https://github.com/miladkdz/pic-resize#readme"
+  "homepage": "https://github.com/miladkdz/pic-resize#readme",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "progress": "^2.0.0"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "pic-resize",
+  "version": "0.0.1",
+  "description": "A command line utility to resize pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miladkdz/pic-resize.git"
+  },
+  "author": "Milad Karbasizadeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miladkdz/pic-resize/issues"
+  },
+  "homepage": "https://github.com/miladkdz/pic-resize#readme"
+}

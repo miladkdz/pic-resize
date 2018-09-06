@@ -5,8 +5,11 @@ const program = require('commander');
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
+const version = require('./package.json').version;
 
-program.arguments('<file>')
+program
+    .version(version)
+    .arguments('<file>')
     .option('-w, --width <width>', 'Width of the result image', 800)
     .action((file) => {
         const extension = path.extname(file);
